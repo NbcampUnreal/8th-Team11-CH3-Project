@@ -1,24 +1,35 @@
-Binaries/
-Build/
-DerivedDataCache/
-Intermediate/
-Saved/
+# Unreal Engine 5 - .gitignore
 
+# Generated project files
 *.sln
 *.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vs/
+
+# Compiled binaries
+Binaries/
+Plugins/*/Binaries/
+
+# Build intermediates
+Build/
+Intermediate/
+Plugins/*/Intermediate/
+
+# Derived data cache (regenerated locally)
+DerivedDataCache/
+
+# Editor saved data (logs, backups, autosave)
+Saved/
+
+# Built map data (regenerated on cook)
+*_BuiltData.uasset
+
+# Platform-specific
 *.xcodeproj
 *.xcworkspace
-*.VC.db
-*.VC.VC.opendb
 
-*.log
-*.tmp
-
-.DS_Store
-
-.vscode/
-.idea/
-
-# Visual Studio cache
-.vs/
-*.ipch
+# StarterContent (용량 크고 팀 작업 불필요)
+Content/StarterContent/
