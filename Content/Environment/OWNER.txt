@@ -1,0 +1,7 @@
+담당: 김하승 (E)
+에셋 예정:
+  - Maps/L_Arena              (메인 아레나 레벨)
+  - Maps/L_MainMenu           (메인 메뉴 레벨)
+  - Meshes/PostApocalyptic/   (Post Apocalyptic Urban City 임포트 위치)
+  - Meshes/MetroSubway/       (Metro Subway 임포트 위치)
+  - BP_SpawnPoint             (웨이브 스폰 포인트 Actor — B와 위치 협의)

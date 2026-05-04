@@ -1,0 +1,7 @@
+담당: 전원 공용 (수정 시 팀 합의 필요)
+용도: 여러 역할이 공통으로 사용하는 에셋
+에셋 예정:
+  - Materials/M_ZombieBody   (좀비 공용 머티리얼)
+  - Materials/M_PlayerBody   (플레이어 공용 머티리얼)
+  - Audio/BGM_Arena          (아레나 BGM)
+  - Audio/SFX_*              (공용 SFX)

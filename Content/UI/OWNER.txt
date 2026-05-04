@@ -1,0 +1,7 @@
+담당: 김하승 (E)
+에셋 예정:
+  - WBP_HUD                  (메인 HUD 위젯)
+  - WBP_CardSelection        (웨이브 클리어 후 카드 선택 위젯)
+  - WBP_MainMenu             (메인 메뉴)
+  - WBP_GameOver             (게임오버 화면)
+  - Textures/UI/             (HUD 아이콘, 버튼 텍스처)

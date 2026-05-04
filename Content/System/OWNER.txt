@@ -1,0 +1,5 @@
+담당: 문창욱 (D)
+에셋 예정:
+  - DT_CardData              (카드 DataTable)
+  - BP_CardUpgradeSubsystem  (카드 업그레이드 로직 블루프린트)
+  - BP_NBC_GameState         (게임 스테이트 블루프린트)

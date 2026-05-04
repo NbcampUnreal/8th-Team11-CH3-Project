@@ -1,0 +1,9 @@
+담당: 장재봉 (B)
+에셋 예정:
+  - BP_ZombieCharacter       (좀비 블루프린트)
+  - BP_BossCharacter         (보스 블루프린트)
+  - BP_WaveManager           (웨이브 매니저 Actor)
+  - BT_Zombie                (Behavior Tree)
+  - BB_Zombie                (Blackboard)
+  - ABP_Zombie               (좀비 Animation Blueprint)
+  - Meshes/                  (좀비 스켈레탈 메시 임포트 위치)

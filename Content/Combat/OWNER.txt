@@ -1,0 +1,8 @@
+담당: 신장식 (C)
+에셋 예정:
+  - NS_HitImpact             (피격 Niagara 이펙트)
+  - NS_BloodSplat            (혈흔 이펙트)
+  - NS_ExecutionChain        (처형 연쇄 이펙트)
+  - SQ_CameraShake_Melee     (근접 카메라 셰이크)
+  - SQ_CameraShake_Ranged    (원거리 카메라 셰이크)
+  - AM_Execution_*           (처형 Anim Montage)

@@ -1,0 +1,7 @@
+담당: 오성현 (A)
+에셋 예정:
+  - BP_PlayerCharacter       (플레이어 블루프린트)
+  - BP_WeaponBase            (무기 베이스 블루프린트)
+  - ABP_Player               (Animation Blueprint)
+  - AM_Melee_*               (근접 Anim Montage)
+  - Meshes/                  (Mechanic Character Sarah 임포트 위치)
