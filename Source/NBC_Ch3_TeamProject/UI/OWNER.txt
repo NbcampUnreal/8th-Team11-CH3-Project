@@ -1,0 +1,12 @@
+폴더: UI
+담당: 김하승 (E)
+용도: HUD, 메인 메뉴, 카드 선택 UI
+주요 파일 예정:
+  - NBC_Ch3_HUD.h/.cpp             (AHUD, 체력/탄약/과열/웨이브 표시)
+  - CardSelectionWidget.h/.cpp     (웨이브 클리어 후 3장 선택 UMG)
+수신:
+  - A(Player)로부터: 체력/탄약/과열 수치
+  - D(System)로부터: 게임 스테이트 데이터
+인터페이스 제공:
+  - B(AI)에게: 스폰 포인트 Actor 위치 (레벨 배치)
+주의: UMG 사용으로 Build.cs에 "UMG" 모듈 추가 필요

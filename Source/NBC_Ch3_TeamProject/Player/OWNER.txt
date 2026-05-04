@@ -1,0 +1,11 @@
+폴더: Player
+담당: 오성현 (A)
+용도: TPS 캐릭터 컨트롤러, 무기 시스템, 과열 게이지
+주요 파일 예정:
+  - NBC_PlayerCharacter.h/.cpp     (ACharacter 서브클래스, TPS 이동·조준)
+  - WeaponComponent.h/.cpp         (근접 고정 + 원거리 카드 슬롯)
+  - OverheatComponent.h/.cpp       (과열 게이지, 강제 근접 전환, 냉각)
+인터페이스 제공:
+  - C(Combat)에게: 처형 트리거 델리게이트
+  - D(System)에게: 카드 효과 수신 인터페이스
+  - E(UI)에게: 체력/탄약/과열 수치 접근자

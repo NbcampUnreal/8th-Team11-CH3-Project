@@ -1,0 +1,12 @@
+폴더: System
+담당: 문창욱 (D)
+용도: 카드/업그레이드 시스템, 게임 스테이트
+주요 파일 예정:
+  - NBC_Ch3_GameState.h/.cpp       (AGameState, 웨이브·플레이어 스탯)
+  - CardUpgradeSubsystem.h/.cpp    (카드 DataTable, 효과 적용 로직)
+  - CardData.h                     (FTableRowBase 카드 데이터 구조체)
+수신:
+  - B(AI)로부터: 웨이브 클리어 이벤트
+인터페이스 제공:
+  - A(Player)에게: 카드 효과 전달
+  - E(UI)에게: 게임 스테이트 데이터 바인딩

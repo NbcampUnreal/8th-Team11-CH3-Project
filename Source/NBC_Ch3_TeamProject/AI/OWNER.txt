@@ -1,0 +1,13 @@
+폴더: AI
+담당: 장재봉 (B)
+용도: 좀비 AI, 웨이브 매니저, 보스
+주요 파일 예정:
+  - ZombieCharacter.h/.cpp         (ACharacter, 체력 컴포넌트, 처형 임계값)
+  - ZombieAIController.h/.cpp      (AAIController, BehaviorTree 연동)
+  - WaveManager.h/.cpp             (웨이브 스폰 로직, 클리어 판정)
+  - BossCharacter.h/.cpp           (보스 웨이브 전용)
+인터페이스 제공:
+  - D(System)에게: 웨이브 클리어 이벤트 델리게이트
+  - C(Combat)에게: 좀비 체력 컴포넌트 접근
+수신:
+  - E(UI)로부터: 스폰 포인트 Actor 위치

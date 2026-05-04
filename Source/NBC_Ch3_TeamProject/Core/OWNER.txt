@@ -1,0 +1,8 @@
+폴더: Core
+담당: 전원 공용 (수정 시 팀 합의 필요)
+용도: 게임모드, 공용 인터페이스, 공용 데이터 구조체
+주요 파일 예정:
+  - NBC_Ch3_TeamProjectGameMode.h/.cpp
+  - NBC_Interfaces.h          (역할 간 인터페이스 정의)
+  - NBC_DataTypes.h           (공용 열거형, 구조체)
+의존 방향: 없음 (Core는 다른 폴더를 include하지 않는다)

@@ -1,0 +1,13 @@
+폴더: Combat
+담당: 신장식 (C)
+용도: 히트 판정, 피격 리액션, 히트스톱, 처형 시스템
+주요 파일 예정:
+  - HitDetectionComponent.h/.cpp   (데미지 적용, Sphere Overlap)
+  - ExecutionComponent.h/.cpp      (처형 트리거, 연쇄 경직 로직)
+  - HitStopComponent.h/.cpp        (피격 대상+플레이어 0.05~0.1초 프리즈)
+  - CameraShakeBase 서브클래스     (근접/원거리 타격 셰이크)
+수신:
+  - A(Player)로부터: 무기 공격 이벤트
+  - B(AI)로부터: 좀비 체력 컴포넌트 접근
+인터페이스 제공:
+  - E(UI)에게: 처형 가능 상태 표시 요청
